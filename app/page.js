@@ -6,7 +6,11 @@ const products = [
   { id: 1, name: 'Gaming Laptop', price: '$1200', image: 'https://i.pcmag.com/imagery/reviews/00ujXpkUDw1FIczR1gVekQk-1.fit_lim.size_919x518.v1722353639.jpg' },
   { id: 2, name: 'Mechanical Keyboard', price: '$80', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvj4G46zTMVMXBrnWMp24dnqtszjwpCluoAg&s' },
   { id: 3, name: 'Gaming Mouse', price: '$45', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xMA8raBV_tcl-KgDlJCH65HxUEkbwfWaJA&s' },
-  { id: 4, name: '4K Monitor', price: '$300', image: 'https://i.pcmag.com/imagery/roundups/01Y9bqNdRmGOzHcetHQG2FW-36.fit_lim.size_1050x.webp' },
+  { id: 4, name: '4K Monitor', price: '$200', image: 'https://i.pcmag.com/imagery/roundups/01Y9bqNdRmGOzHcetHQG2FW-36.fit_lim.size_1050x.webp' },
+  { id: 5, name: 'Gaming Headset', price: '$99', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXz0HxJD-mXhxAZHGj3zEDrQwmCqLMNqO_g&s' },
+  { id: 6, name: 'RGB Mouse Pad', price: '$25', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9EtyUTxR8J0eSkQcgE7Mh6yvhMkrOBZKvg&s' },
+  { id: 7, name: 'Webcam HD', price: '$60', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX0l4wEHRpVNJbqH-mLdxp0UzL1K4D_nNxw&s' },
+  { id: 8, name: 'USB-C Hub', price: '$35', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWd73Qc52_5Ph7FfzWGWDPEOvoF9GS9GZwQ&s' }
 ];
 
 export default function HomePage() {
@@ -39,42 +43,8 @@ export default function HomePage() {
             <div key={product.id} className="bg-neutral-900 shadow-md rounded-lg overflow-hidden">
               <img src={product.image} alt={product.name} className="w-full h-40 object-cover" />
               <div className="p-4">
-                <h4 className="text-lg font-semibold">{product.name}</h4>
-                <p className="text-neutral-700 font-bold">{product.price}</p>
-                <button className="mt-2 px-4 py-2 bg-neutral-600 text-white rounded hover:bg-neutral-700">
-                  Buy Now
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-      <section className="py-10 px-4 max-w-6xl mx-auto">
-        <h3 className="text-2xl font-bold mb-6">Featured Products</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {products.map((product) => (
-            <div key={product.id} className="bg-neutral-900 shadow-md rounded-lg overflow-hidden">
-              <img src={product.image} alt={product.name} className="w-full h-40 object-cover" />
-              <div className="p-4">
-                <h4 className="text-lg font-semibold">{product.name}</h4>
-                <p className="text-neutral-700 font-bold">{product.price}</p>
-                <button className="mt-2 px-4 py-2 bg-neutral-600 text-white rounded hover:bg-neutral-700">
-                  Buy Now
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-      <section className="py-10 px-4 max-w-6xl mx-auto">
-        <h3 className="text-2xl font-bold mb-6">Featured Products</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {products.map((product) => (
-            <div key={product.id} className="bg-neutral-900 shadow-md rounded-lg overflow-hidden">
-              <img src={product.image} alt={product.name} className="w-full h-40 object-cover" />
-              <div className="p-4">
-                <h4 className="text-lg font-semibold">{product.name}</h4>
-                <p className="text-neutral-700 font-bold">{product.price}</p>
+                <h4 className="text-lg text-white font-semibold">{product.name}</h4>
+                <p className="text-neutral-200 font-bold">{product.price}</p>
                 <button className="mt-2 px-4 py-2 bg-neutral-600 text-white rounded hover:bg-neutral-700">
                   Buy Now
                 </button>
