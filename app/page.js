@@ -7,10 +7,10 @@ const products = [
   { id: 2, name: 'Mechanical Keyboard', price: '$80', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvj4G46zTMVMXBrnWMp24dnqtszjwpCluoAg&s' },
   { id: 3, name: 'Gaming Mouse', price: '$45', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xMA8raBV_tcl-KgDlJCH65HxUEkbwfWaJA&s' },
   { id: 4, name: '4K Monitor', price: '$200', image: 'https://i.pcmag.com/imagery/roundups/01Y9bqNdRmGOzHcetHQG2FW-36.fit_lim.size_1050x.webp' },
-  { id: 5, name: 'Gaming Headset', price: '$99', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXz0HxJD-mXhxAZHGj3zEDrQwmCqLMNqO_g&s' },
-  { id: 6, name: 'RGB Mouse Pad', price: '$25', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9EtyUTxR8J0eSkQcgE7Mh6yvhMkrOBZKvg&s' },
-  { id: 7, name: 'Webcam HD', price: '$60', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX0l4wEHRpVNJbqH-mLdxp0UzL1K4D_nNxw&s' },
-  { id: 8, name: 'USB-C Hub', price: '$35', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWd73Qc52_5Ph7FfzWGWDPEOvoF9GS9GZwQ&s' }
+  { id: 5, name: 'Gaming Headset', price: '$99', image: 'https://i5.walmartimages.com/seo/Gaming-Headset-for-PS4-Headset-with-Microphone-Noise-Cancelling-PC-Headset-with-LED-Lights-Gaming-Headphones-Blue_c3f7c8b8-69c0-4c5f-a675-0561d42627a5.548139c2f3040ff7f7274a50074c73e6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF' },
+  { id: 6, name: 'RGB Mouse Pad', price: '$25', image: 'https://cdn.mos.cms.futurecdn.net/HAwSBEHaTfmKXeQGMQP8MR.jpg' },
+  { id: 7, name: 'Webcam HD', price: '$60', image: 'https://backend.intelbras.com/sites/default/files/2022-04/HD-webcam-CAM-HD-720P.jpg' },
+  { id: 8, name: 'USB-C Hub MHW', price: '$35', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwX14KkGEyFjKhPgiKy_fAT-g6UsWD4PcjO5X8xoZsgQNpsr4AQW0OUn7MY5JVgBSAtQk&usqp=CAU' }
 ];
 
 export default function HomePage() {
