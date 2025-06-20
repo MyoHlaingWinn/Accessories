@@ -12,7 +12,7 @@ export default function AboutPage() {
             <nav className="space-x-4">
               <Link href="/">Home</Link>
               <Link href="/products">Products</Link>
-              <Link href="/about">About</Link>
+              <Link href="/about" className='border-b-4 border-blue-500 text-blue-500'>About</Link>
               <Link href="/contact">Contact</Link>
             </nav>
             <img src='img/profile.jpg' alt='' className='size-10 object-cover rounded-full'/>

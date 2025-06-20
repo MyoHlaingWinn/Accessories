@@ -37,7 +37,7 @@ export default function ProductsPage() {
           <div className='flex gap-5 items-center'>
             <nav className="space-x-4">
               <Link href="/">Home</Link>
-              <Link href="/products">Products</Link>
+              <Link href="/products" className='border-b-4 border-blue-500 text-blue-500'>Products</Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
             </nav>

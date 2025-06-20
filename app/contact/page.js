@@ -34,7 +34,7 @@ export default function ContactPage() {
               <Link href="/">Home</Link>
               <Link href="/products">Products</Link>
               <Link href="/about">About</Link>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact" className='border-b-4 border-blue-500 text-blue-500'>Contact</Link>
             </nav>
             <img src='img/profile.jpg' alt='' className='size-10 object-cover rounded-full'/>
           </div>

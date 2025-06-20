@@ -21,7 +21,7 @@ export default function HomePage() {
           <h1 className="text-2xl font-bold">TechZone Computers</h1>
           <div className='flex gap-5 items-center'>
             <nav className="space-x-4">
-              <Link href="/">Home</Link>
+              <Link href="/" className='border-b-4 border-blue-500 text-blue-500'>Home</Link>
               <Link href="/products">Products</Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
