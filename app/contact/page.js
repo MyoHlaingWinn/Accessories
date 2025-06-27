@@ -26,7 +26,7 @@ export default function ContactPage() {
 
   return (
     <main className="min-h-screen bg-neutral-800 text-gray-50">
-      <header className="fixed w-full bg-neutral-800/20 backdrop-blur-3xl border-b border-white/10 text-white p-4 shadow-md">
+      <header className="fixed z-20 w-full bg-neutral-800/20 backdrop-blur-3xl border-b border-white/10 text-white p-4 shadow-md">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">TechZone Computers</h1>
           <div className='flex gap-5 items-center'>
